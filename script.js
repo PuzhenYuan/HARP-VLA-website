@@ -47,11 +47,6 @@ document.querySelectorAll('.expand').forEach(button => {
 document.getElementById('close-video').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 dialog.addEventListener('close', () => { largeVideo.pause(); largeVideo.removeAttribute('src'); largeVideo.load(); });
-document.getElementById('copy-citation').addEventListener('click', async () => {
-  const code = document.querySelector('.citation-box code'); const status = document.getElementById('copy-status');
-  try { await navigator.clipboard.writeText(code.textContent); status.textContent = 'BibTeX copied.'; }
-  catch { const range = document.createRange(); range.selectNodeContents(code); const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range); status.textContent = 'Citation selected. Copy with your keyboard shortcut.'; }
-});
 // Pause offscreen clips so the galleries do not consume background resources.
 const observer = new IntersectionObserver(entries => entries.forEach(entry => {
   if (!entry.isIntersecting) entry.target.pause();

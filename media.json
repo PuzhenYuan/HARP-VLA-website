@@ -178,62 +178,62 @@
   ],
   "realworld": [
     {
-      "task": "Pick and place",
+      "task": "Pick and Place",
       "object": "Bamboo",
       "stem": "real-01"
     },
     {
-      "task": "Pick and place",
+      "task": "Pick and Place",
       "object": "Orange",
       "stem": "real-02"
     },
     {
-      "task": "Pick and place",
+      "task": "Pick and Place",
       "object": "Yellow box",
       "stem": "real-03"
     },
     {
-      "task": "Push",
+      "task": "Push Box",
       "object": "Red box",
       "stem": "real-04"
     },
     {
-      "task": "Push",
+      "task": "Push Box",
       "object": "Green box",
       "stem": "real-05"
     },
     {
-      "task": "Push",
+      "task": "Push Box",
       "object": "Red box",
       "stem": "real-06"
     },
     {
-      "task": "Press",
+      "task": "Press Button",
       "object": "Button",
       "stem": "real-07"
     },
     {
-      "task": "Press",
+      "task": "Press Button",
       "object": "Button",
       "stem": "real-08"
     },
     {
-      "task": "Press",
+      "task": "Press Button",
       "object": "Button",
       "stem": "real-09"
     },
     {
-      "task": "Flip",
+      "task": "Flip Cup",
       "object": "Shaker cup",
       "stem": "real-10"
     },
     {
-      "task": "Flip",
+      "task": "Flip Cup",
       "object": "Blue cup",
       "stem": "real-11"
     },
     {
-      "task": "Flip",
+      "task": "Flip Cup",
       "object": "Blue cup",
       "stem": "real-12"
     }
