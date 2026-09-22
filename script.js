@@ -1,4 +1,5 @@
 'use strict';
+const visibleVideos = new Set();
 function changeCamera(video, src, poster) {
   const time = video.currentTime;
   const playing = !video.paused;
@@ -23,10 +24,11 @@ document.querySelectorAll('[data-camera]').forEach(button => {
     document.querySelectorAll('[data-camera]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
     document.querySelectorAll('.sim-grid video').forEach(video => {
       const stem = video.dataset.stem + (button.dataset.camera === 'wrist' ? '-wrist' : '');
-      // Keep all 25 clips lazy until the visitor plays a clip.
+      // Resume the selected camera only for clips currently on screen.
       video.pause(); video.removeAttribute('src');
       video.querySelector('source').src = `assets/${stem}.mp4`;
       video.poster = `assets/${stem}.jpg`; video.load();
+      if (visibleVideos.has(video)) video.play().catch(() => {});
     });
   });
 });
@@ -47,8 +49,19 @@ document.querySelectorAll('.expand').forEach(button => {
 document.getElementById('close-video').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 dialog.addEventListener('close', () => { largeVideo.pause(); largeVideo.removeAttribute('src'); largeVideo.load(); });
-// Pause offscreen clips so the galleries do not consume background resources.
+// Play muted clips as soon as any part enters the viewport; pause on exit.
 const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-  if (!entry.isIntersecting) entry.target.pause();
+  const video = entry.target;
+  if (entry.isIntersecting && entry.intersectionRatio > 0) {
+    visibleVideos.add(video);
+    video.play().catch(() => {});
+  } else {
+    visibleVideos.delete(video);
+    video.pause();
+  }
 }), { threshold: 0 });
-document.querySelectorAll('main video').forEach(v => observer.observe(v));
+document.querySelectorAll('main video').forEach(video => {
+  video.muted = true;
+  video.playsInline = true;
+  observer.observe(video);
+});

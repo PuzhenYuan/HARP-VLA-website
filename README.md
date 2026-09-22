@@ -1,6 +1,6 @@
 # HARP-VLA project website
 
-[Code](https://github.com/PuzhenYuan/HARP-VLA) · [Checkpoint](https://huggingface.co/ypz21/HARP_VLA_calvin) · [Project website](https://puzhenyuan.github.io/HARP-VLA-website/)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://puzhenyuan.github.io/HARP-VLA-website/) [![arXiv](https://img.shields.io/badge/arXiv-2605.31234-b31b1b)](https://arxiv.org/abs/2605.31234) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Checkpoint-yellow)](https://huggingface.co/ypz21/HARP_VLA_calvin) [![Code](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/PuzhenYuan/HARP-VLA)
 
 Static project page with paper figures, redrawn result charts, 25 CALVIN clips (five sequences × five steps), and three real-world demonstrations per task with camera switching.
 
