@@ -1,0 +1,241 @@
+{
+  "calvin": [
+    {
+      "row": 1,
+      "step": 1,
+      "task": "Lift pink block slider",
+      "success": true,
+      "stem": "calvin-1-1"
+    },
+    {
+      "row": 1,
+      "step": 2,
+      "task": "Place in slider",
+      "success": true,
+      "stem": "calvin-1-2"
+    },
+    {
+      "row": 1,
+      "step": 3,
+      "task": "Open drawer",
+      "success": true,
+      "stem": "calvin-1-3"
+    },
+    {
+      "row": 1,
+      "step": 4,
+      "task": "Rotate red block right",
+      "success": true,
+      "stem": "calvin-1-4"
+    },
+    {
+      "row": 1,
+      "step": 5,
+      "task": "Lift red block table",
+      "success": true,
+      "stem": "calvin-1-5"
+    },
+    {
+      "row": 2,
+      "step": 1,
+      "task": "Open drawer",
+      "success": true,
+      "stem": "calvin-2-1"
+    },
+    {
+      "row": 2,
+      "step": 2,
+      "task": "Lift pink block table",
+      "success": true,
+      "stem": "calvin-2-2"
+    },
+    {
+      "row": 2,
+      "step": 3,
+      "task": "Place in slider",
+      "success": true,
+      "stem": "calvin-2-3"
+    },
+    {
+      "row": 2,
+      "step": 4,
+      "task": "Turn on lightbulb",
+      "success": true,
+      "stem": "calvin-2-4"
+    },
+    {
+      "row": 2,
+      "step": 5,
+      "task": "Rotate blue block left",
+      "success": true,
+      "stem": "calvin-2-5"
+    },
+    {
+      "row": 3,
+      "step": 1,
+      "task": "Push blue block left",
+      "success": true,
+      "stem": "calvin-3-1"
+    },
+    {
+      "row": 3,
+      "step": 2,
+      "task": "Close drawer",
+      "success": true,
+      "stem": "calvin-3-2"
+    },
+    {
+      "row": 3,
+      "step": 3,
+      "task": "Lift red block slider",
+      "success": true,
+      "stem": "calvin-3-3"
+    },
+    {
+      "row": 3,
+      "step": 4,
+      "task": "Place in slider",
+      "success": true,
+      "stem": "calvin-3-4"
+    },
+    {
+      "row": 3,
+      "step": 5,
+      "task": "Turn off lightbulb",
+      "success": true,
+      "stem": "calvin-3-5"
+    },
+    {
+      "row": 4,
+      "step": 1,
+      "task": "Push pink block right",
+      "success": true,
+      "stem": "calvin-4-1"
+    },
+    {
+      "row": 4,
+      "step": 2,
+      "task": "Lift pink block table",
+      "success": true,
+      "stem": "calvin-4-2"
+    },
+    {
+      "row": 4,
+      "step": 3,
+      "task": "Place in slider",
+      "success": true,
+      "stem": "calvin-4-3"
+    },
+    {
+      "row": 4,
+      "step": 4,
+      "task": "Push into drawer",
+      "success": true,
+      "stem": "calvin-4-4"
+    },
+    {
+      "row": 4,
+      "step": 5,
+      "task": "Close drawer",
+      "success": true,
+      "stem": "calvin-4-5"
+    },
+    {
+      "row": 5,
+      "step": 1,
+      "task": "Open drawer",
+      "success": true,
+      "stem": "calvin-5-1"
+    },
+    {
+      "row": 5,
+      "step": 2,
+      "task": "Push red block right",
+      "success": true,
+      "stem": "calvin-5-2"
+    },
+    {
+      "row": 5,
+      "step": 3,
+      "task": "Move slider left",
+      "success": true,
+      "stem": "calvin-5-3"
+    },
+    {
+      "row": 5,
+      "step": 4,
+      "task": "Lift pink block slider",
+      "success": true,
+      "stem": "calvin-5-4"
+    },
+    {
+      "row": 5,
+      "step": 5,
+      "task": "Place in slider",
+      "success": true,
+      "stem": "calvin-5-5"
+    }
+  ],
+  "realworld": [
+    {
+      "task": "Pick and place",
+      "object": "Bamboo",
+      "stem": "real-01"
+    },
+    {
+      "task": "Pick and place",
+      "object": "Orange",
+      "stem": "real-02"
+    },
+    {
+      "task": "Pick and place",
+      "object": "Yellow box",
+      "stem": "real-03"
+    },
+    {
+      "task": "Push",
+      "object": "Red box",
+      "stem": "real-04"
+    },
+    {
+      "task": "Push",
+      "object": "Green box",
+      "stem": "real-05"
+    },
+    {
+      "task": "Push",
+      "object": "Red box",
+      "stem": "real-06"
+    },
+    {
+      "task": "Press",
+      "object": "Button",
+      "stem": "real-07"
+    },
+    {
+      "task": "Press",
+      "object": "Button",
+      "stem": "real-08"
+    },
+    {
+      "task": "Press",
+      "object": "Button",
+      "stem": "real-09"
+    },
+    {
+      "task": "Flip",
+      "object": "Shaker cup",
+      "stem": "real-10"
+    },
+    {
+      "task": "Flip",
+      "object": "Blue cup",
+      "stem": "real-11"
+    },
+    {
+      "task": "Flip",
+      "object": "Blue cup",
+      "stem": "real-12"
+    }
+  ]
+}
